@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#amount{
+        margin-left: 150px;
+        margin-top: 100px;
+		}
+	    #company{
+	    	margin-left: 310px;
+	    	margin-top: -200px;
+	    	color: white;
+	    }
+	    #ha{
+	    	margin-bottom: 30px;
+	    	margin-top: 40px;
+	    	margin-left:150px;
+	    }
+	    #convert{
+	    	margin-left: 146px;
+	    	margin-top: -20px;
+
+	    }
+	    #from{
+	    	margin-left: 400px;
+	    	margin-top: -115px;
+	    }
+	    #usd{
+	    	margin-left: 400px;
+	    	margin-top: 15px;
+	    }
+	    #to{
+	    	margin-top: -55px;
+	    	margin-left: 600px;
+	    }
+	    #rwanda{
+	    	margin-left: 600px;
+	    	margin-top: 10px;
+	    }
+	    #re{
+	    	margin-left: 600px;
+	    	margin-top: 10px;
+	    }
+	    #result{
+	    	margin-left: 600px;
+	    	margin-top: -5px;
+	    }
+	    #input
+	    {
+	    	margin-left: -3px;
+	    	margin-top: -25px;
+	    }
+	    #alone{
+	    	background-color: #000;
+	    	padding: 40px;
+	    	width: 750px;
+	    	height: 120px;
+	    	margin-left: 10px 
+	    }
+	    #paa{
+	    	height: 20px;
+	    	width: 40px;
+	    	padding: 40px;
+	    	background-color: black;
+	    	margin-left: 10px;
+	    	margin-top: -99px;
+
+	    }
+	    #iwacu{
+	    	height: 20px;
+	    	width: 40px;
+	    	padding: 40px;
+	    	background-color: black;
+	    	margin-left: 720px;
+	    	margin-top: -1px;
+	    }
+
+	</style>
+	<title></title>
+</head>
+<body>
+	
+	<fieldset style="width: 1px; height: 389px;">
+	<div id="alone"></div>
+	<div id="iwacu"></div>
+	<div id="paa"> </div>
+	<div id="company">
+	<bigger>XYZ-COMPANY</bigger><br>
+	<p><small>CURRANCY EXCHANGE PLATFORM</small>
+	</div></p>
+<div id="amount">Amount</div>
+<div id="input">
+<input type="number"style="font-family: fantasy;" id="ha">
+</div>
+<br>
+<div id="convert">
+<button style="font-family: fantasy;" onclick="j()">convert</button></div>
+<div id="from">from</div>
+<div id="usd"><select><option>USD-$</option></select></div>
+<div id="to">To</div>
+<div id="rwanda"><select><option>Rwanda-RWF</option></select></div>
+<div id="re">result</div><br>
+<div id="result"></div>
+
+<script>
+	function j() {
+		var a = document.getElementById('ha').value;
+		var b = 1103;
+		var c = a*b;
+		var d = document.getElementById('result').innerHTML=(c);
+	}
+</script>
+&copy;
+</fieldset>
+</body>
+</html>
